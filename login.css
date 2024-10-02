@@ -1,0 +1,97 @@
+   body{
+        background-color: #f2f2f2;
+   }
+   .logo{
+        text-align: center;
+    }
+
+    .logo img{
+        width: 8%;
+        padding: 3% 0 2% 0;
+    }
+    .container{
+        margin: auto;
+        width: 27%;
+        background-color: #fff;
+        box-shadow: 0px 0px 7px rgba(128, 128, 128, 0.492);
+        padding: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+    }
+    
+    .heading{
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .bi-box-arrow-in-right{
+        color: #b10723;
+        background-color: #f5e0eb;
+        font-size: 18px;
+        border-radius: 5px;
+        padding: 7px;
+    }
+
+
+    input{
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        border: 1px solid #c3c3c3;
+    }
+
+    input[type=submit]{
+        background-color: #b2146b;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+    }
+    .bi-eye{
+        position:absolute;
+        transform: translate(-190%, 30%);
+    }
+
+    .forgot-pass,.create-account{
+        text-align: center;
+    }
+
+    .forgot-pass a{
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .create-account a{
+        color: #b2146b;
+        text-decoration: none;
+    }
+    input:hover{
+        border: 1px solid #070004;
+    }
+    input:focus{
+        outline: 3px solid #ae0863;
+        border: none;
+    }
+
+    /* Media Query Breakpoints
+    For mobile screen = 567px and below
+    For tablet screen = 768px and below
+    For tablet landscape mode or smaller laptop = 992px and below
+    Other laptops = greater than 992px, 1200px
+    */
+
+    /*Media Query for Mobile Device */
+    @media screen and (max-width:570px) {
+        .container{
+            width: 90%;
+        }
+        .logo img{
+            width: 40%;
+        }
+        
+    }
+    .language{
+        background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    text-decoration: solid;
+    }
